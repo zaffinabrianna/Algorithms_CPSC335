@@ -59,12 +59,14 @@ public:
 		//Pushing a stack
 		else if (mode == "stack")
 		{
+			// Uses max-heap to push in LIFO order. 
 			priorityQ.push({ 0, index, item }); // LIFO
 		}
 
 		//Pushing a queue
 		else if (mode == "queue")
 		{
+			// Uses max-heap to push in FIFO order, since its using least NEGATIVE number it'll perform FIFO (largest number will become smallest)
 			priorityQ.push({ 0, -index, item }); //FIFO
 		}
 		index++; // Order tracking
