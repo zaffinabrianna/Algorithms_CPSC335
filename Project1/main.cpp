@@ -21,10 +21,12 @@ int main() {
         pq.push(40, 3); // Same priority test
         pq.push(50);    // No priority specified test
 
+        //Counter
+        int priorityNum = 1;
+
         // Test loop
         while (!pq.is_empty())
         {
-            int priorityNum = 1;
             cout << "Priority #" << priorityNum << ": " << pq.pop() << endl;
             priorityNum++;
         }
@@ -37,10 +39,12 @@ int main() {
         stack_.push(20);
         stack_.push(30);
 
+        //Counter
+        priorityNum = 1;
+
         // Test loop
         while (!stack_.is_empty())
         {
-            int priorityNum = 1;
             cout << "FILO Order #" << priorityNum << ": " << stack_.pop() << endl;
             priorityNum++;
         }
@@ -53,10 +57,11 @@ int main() {
         queue_.push(20);
         queue_.push(30);
 
+        //Counter
+        priorityNum = 1;
         // Test loop
         while (!queue_.is_empty())
         {
-            int priorityNum = 1;
             cout << "FIFO Order #" << priorityNum << ": " << queue_.pop() << endl;
             priorityNum++;
         }
