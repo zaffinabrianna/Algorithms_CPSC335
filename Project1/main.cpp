@@ -93,7 +93,7 @@ int main() {
 
         result = result.add(temp.reverse(), temp2.reverse(), result);
         cout << "Result is: " << endl;
-        result.reverse().print();
+        result.print();
     }
           break;
     }
