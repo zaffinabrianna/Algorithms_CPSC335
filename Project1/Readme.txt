@@ -29,7 +29,7 @@ Which Algorithm do you want to test? Enter the number. (1 or 2)
 List 1: 3 4 2
 List 2: 9 6 5
 Result is:
-7 0 3 1
+1 3 0 7
 
 Boom! You're finished. main.cpp should compile test cases for all the requirements.
 If you would like to add more test cases:
