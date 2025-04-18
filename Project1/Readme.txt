@@ -9,18 +9,18 @@ Which Algorithm do you want to test? Enter the number. (1 or 2)
 1
 ---Test 1---
 Priority #1: 50
-Priority #1: 30
-Priority #1: 40
-Priority #1: 20
-Priority #1: 10
+Priority #2: 30
+Priority #3: 40
+Priority #4: 20
+Priority #5: 10
 
 FILO Order #1: 30
-FILO Order #1: 20
-FILO Order #1: 10
+FILO Order #2: 20
+FILO Order #3: 10
 
 FIFO Order #1: 10
-FIFO Order #1: 20
-FIFO Order #1: 30
+FIFO Order #2: 20
+FIFO Order #3: 30
 
 Algorithm 2 Expected Output:
 Which Algorithm do you want to test? Enter the number. (1 or 2)
