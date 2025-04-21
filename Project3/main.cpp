@@ -23,7 +23,30 @@ int main()
     cout << "\nTest 2: " << endl;
     cout << "=========================================" << endl;
     charmBracelet result1(n1, w1, weight1, value1);
-    double maxTotalCharm1 = result.knapSack(w1, weight1, value1);
+    double maxTotalCharm1 = result1.knapSack(w1, weight1, value1);
     cout << "Maximum Total Charm Achievable Under the Weight Constraint is: " << maxTotalCharm1 << endl;
+
+    //Test 3:
+    int n2 = 3;
+    int w2 = 1000001;
+    vector<int> weight2 = { 2, 3, 4 };
+    vector<double> value2 = { 3.0, 4.0, 5.0 };
+    cout << "\nTest 3: " << endl;
+    cout << "=========================================" << endl;
+    charmBracelet result2(n2, w2, weight2, value2);
+    double maxTotalCharm2 = result2.knapSack(w2, weight2, value2);
+    cout << "Maximum Total Charm Achievable Under the Weight Constraint is: " << maxTotalCharm2 << endl;
+
+    //Test 4:
+    int n3 = 101;
+    int w3 = 7;
+    vector<int> weight3 = { 2, 3, 4 };
+    vector<double> value3 = { 3.0, 4.0, 5.0 };
+    cout << "\nTest 4: " << endl;
+    cout << "=========================================" << endl;
+    charmBracelet result3(n3, w3, weight3, value3);
+    double maxTotalCharm3 = result3.knapSack(w3, weight3, value3);
+    cout << "Maximum Total Charm Achievable Under the Weight Constraint is: " << maxTotalCharm3 << endl;
+
     return 0;
 }
