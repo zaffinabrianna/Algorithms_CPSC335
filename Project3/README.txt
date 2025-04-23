@@ -1,7 +1,7 @@
 Brianna Zaffina & Suanna Shih readme:
 
 To perform our code, follow these steps:
-1. Upload all three of our files into your IDE (main.cpp, Algorithm1.h, Algorithm2.h) or open the directory of the files (depending on your IDE)
+1. Upload all three of our files into your IDE (main.cpp, Algorithm1.h, Algo2.h) or open the directory of the files (depending on your IDE)
 2. Run the code
 
 Algorithm 1 Expected Output:
