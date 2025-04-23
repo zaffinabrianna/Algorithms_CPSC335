@@ -5,8 +5,9 @@
 int main()
 {
   int choice;
-  cout << "Test algor (1,2)?" << endl;
+  cout << "Which Algorithm do you want to test? Enter the number. (1 or 2)" << endl;
   cin >> choice;
+  
   switch (choice)
   {
     case 1:
