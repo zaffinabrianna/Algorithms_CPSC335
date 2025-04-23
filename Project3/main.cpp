@@ -1,3 +1,6 @@
+// Brianna Zaffina & Suanna Shih
+// CPSC 335
+// Professor
 #include <iomanip>
 #include "Algorithm1.h"
 #include "Algo2.h"
