@@ -1,5 +1,6 @@
 #pragma once
 #include "Algorithm1.h"
+#include "Algo2.h"
 
 int main()
 {
