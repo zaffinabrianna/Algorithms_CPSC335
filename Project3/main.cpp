@@ -1,6 +1,3 @@
-// Brianna Zaffina & Suanna Shih
-// CPSC 335
-// Professor Bhandari
 #include <iomanip>
 #include "Algorithm1.h"
 #include "Algo2.h"
@@ -23,7 +20,7 @@ int main()
         cout << "Test 1: " << endl;
         cout << "=========================================" << endl;
         charmBracelet result(n, w, weight, value);
-        double maxTotalCharm = result.knapSack(w, weight, value);
+        double maxTotalCharm = result.knapSack(n, w, weight, value);
         cout << "Maximum Total Charm Achievable Under the Weight Constraint is: " << fixed << setprecision(2) << maxTotalCharm << endl;
 
         //Test 2:
@@ -34,7 +31,7 @@ int main()
         cout << "\nTest 2: " << endl;
         cout << "=========================================" << endl;
         charmBracelet result1(n1, w1, weight1, value1);
-        double maxTotalCharm1 = result1.knapSack(w1, weight1, value1);
+        double maxTotalCharm1 = result1.knapSack(n1, w1, weight1, value1);
         cout << "Maximum Total Charm Achievable Under the Weight Constraint is: " << fixed << setprecision(2) << maxTotalCharm1 << endl;
 
         //Test 3:
@@ -45,7 +42,7 @@ int main()
         cout << "\nTest 3: " << endl;
         cout << "=========================================" << endl;
         charmBracelet result2(n2, w2, weight2, value2);
-        double maxTotalCharm2 = result2.knapSack(w2, weight2, value2);
+        double maxTotalCharm2 = result2.knapSack(n2, w2, weight2, value2);
         cout << "Maximum Total Charm Achievable Under the Weight Constraint is: " << fixed << setprecision(2) << maxTotalCharm2 << endl;
 
         //Test 4:
@@ -56,7 +53,7 @@ int main()
         cout << "\nTest 4: " << endl;
         cout << "=========================================" << endl;
         charmBracelet result3(n3, w3, weight3, value3);
-        double maxTotalCharm3 = result3.knapSack(w3, weight3, value3);
+        double maxTotalCharm3 = result3.knapSack(n3, w3, weight3, value3);
         cout << "Maximum Total Charm Achievable Under the Weight Constraint is: " << fixed << setprecision(2) << maxTotalCharm3 << endl;
 
         break;
