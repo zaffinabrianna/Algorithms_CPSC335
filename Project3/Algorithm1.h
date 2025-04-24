@@ -48,7 +48,7 @@ public:
     }
 
     //Knapsack Unbounded Algorithm
-    double knapSack(int w, vector<int>& weight, vector<double>& value)
+    double knapSack(int n, int w, vector<int>& weight, vector<double>& value)
     {
 
         //Check if Valid
@@ -61,7 +61,7 @@ public:
         vector<double> knap(w + 1, 0);
 
         //Building 1D Array with For Loops
-        for (int i = value.size() - 1; i >= 0; i--) // Goes through array backwards till it hits i - 1 
+        for (int i = n - 1; i >= 0; i--) // Goes through array backwards till it hits i - 1 
         { // Order doesn't matter in unbounded knapsack 
             for (int j = 1; j <= w; j++) //j = current total weight
             {
