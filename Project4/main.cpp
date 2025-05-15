@@ -1,4 +1,4 @@
-#include "knapSack01.cpp"
+#include "knapSack01.h"
 
 int main()
 {
