@@ -19,7 +19,7 @@ private:
 	//Knapsack recursion to perform top-down DP w/ memoizaiton (O(n * W) time and space)
 	int knapSackRec(vector<vector<int>> stocks_and_values, int index, int remainingBudget)
 	{
-		// Check if our index goes out of the bounds of our initial vector and if we have a budget
+		// Check if our index goes out of the bounds of our inital vector and if we have a budget
 		if (index >= stocks_and_values.size() || remainingBudget == 0)
 		{
 			return 0;
