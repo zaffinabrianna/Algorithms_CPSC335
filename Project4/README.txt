@@ -4,11 +4,25 @@ To perform our code, follow these steps:
 1. Upload all three of our files into your IDE (main.cpp, Algorithm1.h, Algo2.h) or open the directory of the files (depending on your IDE)
 2. Run the code
 
-Algorithm 1 Expected Output:
+Exhaustive Search (Part A) Expected Output:
+Which Algorithm do you want to test? Enter the number. (1 or 2)
+1
+Using exhaustive search:
+{10, {1, 3}}
 
+Dynamic Programming (Part B) Expected Output:
+Which part do you want to test? Enter the letter (char). (A or B)
+b
+Using dynammic programing:
+____________________________________________
+Our budget is 10.
+Let's find the total amount of stocks we can get with our budget!
+Our 2D Array: [1,2], [3,3], [5,6], [6,7].
 
-Algorithm 2 Expected Output:
-
+RESULTS:
+[10, [1,3]]
+Where 10 is the total cost, where 1 is the index of [3, 3] and where 3 is the index of [6, 7].
+Our maximum total stocks within our budget is: 9
 
 Boom! You're finished. main.cpp should compile test cases for all the requirements.
 If you would like to add more test cases:
