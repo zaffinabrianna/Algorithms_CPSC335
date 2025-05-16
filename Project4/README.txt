@@ -13,7 +13,7 @@ Using exhaustive search:
 Dynamic Programming (Part B) Expected Output:
 Which part do you want to test? Enter the letter (char). (A or B)
 b
-Using dynammic programing:
+Using dynamic programing:
 ____________________________________________
 Our budget is 10.
 Let's find the total amount of stocks we can get with our budget!
