@@ -29,7 +29,7 @@ int main() {
 		break;
 	}
 	case 'B': {
-		cout << "Using dynammic programing: " << endl;
+		cout << "Using dynamic programing: " << endl;
 		vector<vector<int>> stocks_and_values = {
 		  { 1,2 },
 		  {3, 3},
